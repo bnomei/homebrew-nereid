@@ -1,14 +1,14 @@
 class Nereid < Formula
   desc "Nereid"
   homepage "https://github.com/bnomei/nereid"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   checksums = {
-    aarch64_apple_darwin: "2522eea4ad3b76d73374fa02c7529f8f73011b839330d1ffd4fa829840f7e268",
-    x86_64_apple_darwin: "03330e0af587eb2e5fe5d3ee5a87aac0c3c17d813d9ffd69138f2758e9af111b",
-    aarch64_unknown_linux_musl: "9f5959c30f2c8580b509b2b0ba1495693196891df499bf125869a92f84506cb2",
-    x86_64_unknown_linux_musl: "ad23dab349d2cbff86fabf7e0b014be41d2b222affe6e5a5bafa70e3d169f523",
+    aarch64_apple_darwin: "40c27e95347a241fbe89e3ac49b942ca2d3754e4a5939308c209f625682a6af7",
+    x86_64_apple_darwin: "fb1b9ed5ccc5ad5c990bd741dd8119f78b97af72f1892fa4cd70d8a70fe53968",
+    aarch64_unknown_linux_musl: "574c4f2093edcdb18ee969a5890713c96d127e62db07f235abe6a9d0e86f588d",
+    x86_64_unknown_linux_musl: "363494cc6e8d84d964e7e690b0411489ef169c1896d7cf5cc6bd31e87e3d1c77",
   }
 
   on_macos do

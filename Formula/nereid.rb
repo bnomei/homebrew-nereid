@@ -1,5 +1,5 @@
 class Nereid < Formula
-  desc "Nereid"
+  desc "Terminal-first diagram TUI and MCP server for Mermaid-backed sessions"
   homepage "https://github.com/bnomei/nereid"
   version "0.1.2"
   license "MIT"

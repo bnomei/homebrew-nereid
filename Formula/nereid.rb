@@ -1,14 +1,14 @@
 class Nereid < Formula
   desc "Terminal-first diagram TUI and MCP server for Mermaid-backed sessions"
   homepage "https://github.com/bnomei/nereid"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   checksums = {
-    aarch64_apple_darwin: "d4ee8263a9027975fa32d04edc664bafda22ea68e3ef07defe66feb085392a72",
-    x86_64_apple_darwin: "93f331f0ceb3c669457309e3fac652f7aca92931710e3c6852b402ce28f7ccc9",
-    aarch64_unknown_linux_musl: "3105b7b3499c42b4fc38bb3b0f847e68e532ad190af6c59c86821b00bf24c072",
-    x86_64_unknown_linux_musl: "cb122025cc250cbdc970abdf09163104fb54829e583bd5329c35d0bb49223118",
+    aarch64_apple_darwin: "23b962a2583224841e20b5a62f96df69d2a958dd7eacc63fceb5e627ac379468",
+    x86_64_apple_darwin: "33b68360c6c3926273c836d4c4e5059e6f6f94f26aadc11cd1d32073686839c2",
+    aarch64_unknown_linux_musl: "6ad8e3dda0cf09a3b9fc939449ce7460e48424b660dfb3705d7fe42f2026a649",
+    x86_64_unknown_linux_musl: "40db2b20851be68acdaa6c4a3b55e58988d92a6f91f7ce79b727332bee4ff127",
   }
 
   on_macos do
